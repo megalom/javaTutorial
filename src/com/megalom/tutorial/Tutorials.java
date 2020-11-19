@@ -56,7 +56,8 @@ public class Tutorials {
 
     }
     public void multithreadingTutorial(){
-        multithreadingTut.VolatileTest();
+
+        multithreadingTut.producerConsumer();
     }
 
     public void postgresTutorial(){
