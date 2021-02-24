@@ -92,4 +92,20 @@ public class multithreadingTut {
         PatternProducerConsumer patternProducerConsumer = new PatternProducerConsumer();
         patternProducerConsumer.main();
     }
+    public static void customProducerConsumer(){
+        CustomProdCons customProdCons = new CustomProdCons();
+        customProdCons.main();
+    }
+    public static void countDownLatchTut(){
+        CountDownLatchTut countDownLatchTut = new CountDownLatchTut();
+        countDownLatchTut.main();
+    }
+    public static void reentrantLockTut(){
+        ReentrantLockTut reentrantLockTut = new ReentrantLockTut();
+        reentrantLockTut.main();
+    }
+    public static void semaphoreTut(){
+        SemaphoreTut semaphoreTut = new SemaphoreTut();
+        semaphoreTut.main();
+    }
 }

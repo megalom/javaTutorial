@@ -57,7 +57,10 @@ public class Tutorials {
     }
     public void multithreadingTutorial(){
 
-        multithreadingTut.producerConsumer();
+        //multithreadingTut.customProducerConsumer();
+        //multithreadingTut.countDownLatchTut();
+        //multithreadingTut.reentrantLockTut();
+        multithreadingTut.semaphoreTut();
     }
 
     public void postgresTutorial(){
